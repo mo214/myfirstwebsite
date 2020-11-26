@@ -1,0 +1,202 @@
+body {
+	font-family: Verdana, sans-serif;
+	 background-image: url("http://anime.mx/wp-content/uploads/2012/07/nari.jpg");
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#banner {
+	background: url("https://pbs.twimg.com/profile_banners/112999431/1408621779/1500x500");
+	background-position:center center;
+        height: 500px;
+        width: 100%;
+}
+
+h1 {
+	font-size: 1.8em;
+	color: #8b0000;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 1.4em;
+	color: #444;
+}
+
+span {
+	font-size:35px;
+}
+
+img {
+max-width: 100%;
+height: auto; /*gøre højden automatisk proportionelt med width/bredden */
+margin: 0px 0px 10px 0px;
+}
+
+p {
+	color: #444;
+	font-size: 80%;
+}
+
+#article1 {
+        width: 20%; /*grundet til 30% og ikke 33%, så de i alt er 100%, er fordi vi vil have mellemrum mellem dem. */
+        float: left;
+        margin-left: 15%;
+	padding: 10;
+	height: 700px;
+    width: 600px;
+        font-style: oblique;
+        font-size: small ;
+        }
+        
+        
+#article2 {
+        width: 20%; /*grundet til 30% og ikke 33%, så de i alt er 100%, er fordi vi vil have mellemrum mellem dem. */
+        float: left;
+        margin-right: 0%;
+	padding: 10;
+	height: 700px;
+    width: 600px;
+        font-style: oblique;
+        font-size: small ;
+        } 
+        
+        
+        
+        
+#last1 {
+        width: 20%; /*grundet til 30% og ikke 33%, så de i alt er 100%, er fordi vi vil have mellemrum mellem dem. */
+        float: right;
+        margin-right: 15%;
+	padding: 10;
+	height: 700px;
+    width: 600px;
+        font-style: oblique;
+        font-size: small ;
+        }
+          
+          
+#last2 {
+        width: 20%; /*grundet til 30% og ikke 33%, så de i alt er 100%, er fordi vi vil have mellemrum mellem dem. */
+        float: left;
+        margin-right: 0%;
+	padding: 10;
+	height: 700px;
+    width: 600px;
+        font-style: oblique;
+        font-size: small ;
+        }
+          
+
+/*# = selecter ID
+Giver Div tag en bredde og en baggrund hvid*/
+#container {
+	width: 1200px;
+	margin: 20px auto;
+	height: auto;
+	background: #fff;
+}
+
+/*Giver Div tag med id Header padding, så den ikk står helt op til venstre, men lidt under den og til højre*/
+#header {
+	padding: 50px 10 50px 50px;
+}
+
+/*Navigation links*/
+#nav {
+	margin-bottom: 20px;
+	float: left;
+	background: #eee;
+	width: 100%;
+       
+}
+
+/*Fjerner prikker i list og giver nagivation ul en padding og margin på 0, så de er placeret til venstre*/
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*får list til at floate til venstre, så de er placeret venstre mod højre og ikk oppefra og nedad*/
+li {
+	float: left;
+}
+
+/*The links have different widths. 
+For all the links to have an equal width, float the <li> elements and specify a width for the <a> elements:*/
+a {
+	clear: both;
+	display: block;
+	padding: 15px 20px 15px 20px;
+	background: #FFFFFF;
+	color: #444;
+	text-decoration: none;
+	border-right: 1px solid #87CEEB;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+/*Når musen er over linksene, så ændrer den farve til lysegrå*/
+a:hover {
+	background: #F5F5F5;
+	text-decoration: none;
+	color: #444;
+	border-right: 1px ;
+}
+
+/*Giver klassen active rød baggrundsfarve. Home bliver rød*/
+.active {
+	color: #fff;
+	background: #FFFAFA;
+         color: #000000
+}
+
+/*Når musen er over Home, så ændrer den farve til en mere lysere rød*/
+.active:hover {
+	color: #fff;
+	background: #ff0000;
+        
+}
+
+/*Selecter div tag med id content og giver den en padding på alle sider på 20px
+clear: both = No floating elements allowed on either the left or the right side
+*/
+#content {
+	padding: 20px;
+	clear: both;
+}
+
+/*Vores kolonne/første announcement tekst*/
+#column-1 {
+	float: left;
+	margin-right: 5px;
+        font-style: oblique;
+}
+
+/*Vores kolonne/anden announcement tekst, bruger den ikk endnu*/
+#column-2 {
+	float: right;
+	width: 200px;
+	margin-left: 5px;
+}
+
+/*Vores footer. Giver den farven grå og sætter den i midten*/
+#footer {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	font-size: 80%;
+	color: #999;
+}
+
+#articles {
+	margin: 0;
+	padding: 50;
+	list-style: none;
+	font-size: small;
+}

@@ -1,0 +1,76 @@
+body {
+    background: url(http://wits.ruc.dk/~amphon/a2/background.jpg); /*her sætter vi baggrunden i for vores side*/
+    background-color: WhiteSmoke; /*Her har vi sat baggrundsfarve til at være WhiteSmoke*/
+    padding-top: 25px; /*Her laver vi padding. Den fjerner området omkring vores element. I dette tilfælde vores body*/
+    padding-right: 50px; /*tæller fra højre side af og frem mod midten med 50 pixel*/
+    padding-bottom: 25px; /*tæller nederst og opad med 25 pixel*/
+    padding-left: 50px; /*tæller fra venstre side af og frem mod midten med 50 pixel*/
+}
+
+img { /*specifiere vores billede*/
+border: 4px solid SlateGray; /*laver en border med 4 pixel som skal være solide og have farven SlateGray*/
+}
+
+h1 { /*h1 overskrift*/
+    font-family: "Arial Black"; /*font type*/
+    font-size: 30px; /*skrift størrelse*/
+    color: SlateBlue; /*giver den farven slateblue*/
+    text-decoration:underline; /*laver en underlinje*/
+}
+
+h2 { /*h2 overskrift*/
+    font-family: "Arial"; /*font type*/
+    color: White;  /*farven white*/
+    font-size: 20px; /*skrift størrelse*/
+}
+
+ul { /*vores liste*/
+    list-style-type:square; /*list typen skal vise firkantede prikker*/
+    border: 3px Solid Navy; /*border på 3 pixel og skal være solid med farven Navy*/
+    width: 450px; /*bredde på listen*/
+    color: White;  /*farven for listen*/
+    text-shadow: 2px 2px 4px #000000; /*tekstskygge hvor den første tallene viser skyggernes position: horizontal shadow, vertical shadow, blur effect, farven*/
+    background-color: white; /*baggrunds fave*/  
+    border-radius: 20px; /*laver runde kanter*/
+    
+    position: absolute; /*With absolute positioning, an element can be placed anywhere on a page.*/
+    top: 1em; /*sætter den øverst (2em means 2 times the size of the current font)*/
+    right: 1em; /*relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    float: right; /*floater listen til højre*/
+    }
+
+ul li ul:hover ul{
+    display: block; /*viser ikk vores liste, hvis vi er over den*/
+    }
+
+a { /*vores link*/
+    color: Navy; /*farven navy*/
+    font-size: 20px; /*skrift størrelse*/
+    text-decoration: none; /*ingen tekst decoration, såsom en under linje*/
+}
+
+a: hover { /* mouse over link med farven lilla */
+    color: #ff3300; /*rød*/
+    text-shadow: 0px 0px 0px; /*tekstskygge: horizontal shadow, vertical shadow, blur*/
+    }
+
+li {
+    display:inline; /*viser et element lige efter hinanden*/
+    }
+
+p { /*vores tekst*/
+    font-family: "Arial"; /*font type*/
+    font-size: 20px; /*skrift størrelse*/
+    text-indent: 50px; /*rykker den første tekst 50 pixel til højre*/
+    color: White;  /*farven hvid*/
+}
+
+table, td, th { /*vores tabel*/
+    border: 2px solid SlateGray; /*border på 2 pixel og skal være solid med farven slategray*/
+    color: White; /*teksten farve*/
+    }
+    th { /*table header, det der ligger øverst*/
+    background-color: SlateGray; /*tabellens baggrunds farve*/
+    color: White; /*teksten farve*/
+    }
+
